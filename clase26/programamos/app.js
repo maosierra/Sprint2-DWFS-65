@@ -17,3 +17,7 @@ btn.addEventListener('click', () => {
     todoList.appendChild(li);
     input.value = '';
 });
+
+let parrafo = document.createElement('p');
+parrafo.textContent = 'despues de elemento ul';
+todoList.before(parrafo);
